@@ -1017,7 +1017,7 @@ ul.ht-dropdown.dropdown-style-two li {
 
 .best-seller-pro .owl-nav div.owl-next,
 .best-seller-unique .owl-nav div.owl-next {
-    right: 20;
+    right: 20px;
 }
 
 /*----------------------------------------*/
@@ -1664,7 +1664,7 @@ ul.ht-dropdown.dropdown-style-two li {
     visibility: visible;
     transform: translateY(0);
     margin-top: 23px;
-    align-content: ;
+    align-content: space-between;
 }
 .main-categorie #list-view .pro-content h4 a {
     margin-bottom: 7px;
@@ -2751,7 +2751,7 @@ p.checkout-coupon input[type="submit"] {
 .blog-pagination li a {
     display: block;
     font-size: 16px;
-    color: 808080;
+    color: #808080;
     border: 1px solid #e7e7e7;
     width: 40px;
     text-align: center;
@@ -3225,9 +3225,10 @@ p.checkout-coupon input[type="submit"] {
     color: #888;
 }
 
-#search-form input::-moz-input-placeholder {
+#search-form input::placeholder {
     color: #888;
 }
+
 
 #search-form button {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
@@ -3389,7 +3390,7 @@ legend {
     color: #888;
 }
 
-.address-wrapper input::-moz-input-placeholder {
+.address-wrapper input::placeholder {
     color: #888;
 }
 
